@@ -11,9 +11,7 @@ import { HamburgerMenuComponent } from './components/header/hamburger-menu/hambu
 import { LogoComponent } from './components/header/logo/logo.component';
 import { SearchBarComponent } from './components/header/search-bar/search-bar.component';
 import { VoiceSearchComponent } from './components/header/voice-search/voice-search.component';
-import { CreateComponent } from './components/header/create/create.component';
-import { NotificationComponent } from './components/header/notification/notification.component';
-import { UserComponent } from './components/header/user/user.component';
+
 import { HomeComponent } from './components/sidebar/home/home.component';
 import { ExploreComponent } from './components/sidebar/explore/explore.component';
 import { SubscriptionComponent } from './components/sidebar/subscription/subscription.component';
@@ -24,6 +22,9 @@ import { MessagesComponent } from './components/sidebar/messages/messages.compon
 import { ShowmoreComponent } from './components/sidebar/showmore/showmore.component';
 import { SubscribedComponent } from './components/sidebar/subscribed/subscribed.component';
 import { ShowmoreSubscriptionsComponent } from './components/sidebar/showmore-subscriptions/showmore-subscriptions.component';
+import { UploadVideoComponent } from './components/header/upload-video/upload-video.component';
+import { NotificationComponent } from './components/header/notification/notification.component';
+import { UserComponent } from './components/header/user/user.component';
 
 @NgModule({
   declarations: [
@@ -37,9 +38,7 @@ import { ShowmoreSubscriptionsComponent } from './components/sidebar/showmore-su
     LogoComponent,
     SearchBarComponent,
     VoiceSearchComponent,
-    CreateComponent,
-    NotificationComponent,
-    UserComponent,
+
     HomeComponent,
     ExploreComponent,
     SubscriptionComponent,
@@ -50,6 +49,9 @@ import { ShowmoreSubscriptionsComponent } from './components/sidebar/showmore-su
     ShowmoreComponent,
     SubscribedComponent,
     ShowmoreSubscriptionsComponent,
+    UploadVideoComponent,
+    NotificationComponent,
+    UserComponent,
   ],
   imports: [BrowserModule],
   providers: [],

@@ -8,18 +8,13 @@
 }
 
 .shortcut-links a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-bottom: 1.25rem;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .sidebar hr {
@@ -33,5 +28,4 @@
   font-size: 0.8125rem;
   margin: 1.25rem 0;
   color: #5a5a5a;
-}
-/*# sourceMappingURL=sidebar.component.css.map */
+}/*# sourceMappingURL=sidebar.component.css.map */

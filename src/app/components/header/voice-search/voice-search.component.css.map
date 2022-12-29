@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,SAAS,CAAC;EACR,KAAK,EAAE,SAAS;CACjB",
-    "sources": [
-        "voice-search.component.scss"
-    ],
-    "names": [],
-    "file": "voice-search.component.css"
-}
+{"version":3,"sources":["voice-search.component.scss","voice-search.component.css"],"names":[],"mappings":"AAAA;EACE,gBAAA;ACCF","file":"voice-search.component.css"}
