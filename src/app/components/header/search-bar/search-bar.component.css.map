@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,WAAW,CAAC,WAAW,CAAC;EACtB,MAAM,EAAE,oBAAoB;EAC5B,YAAY,EAAE,SAAS;EACvB,OAAO,EAAE,cAAc;EACvB,aAAa,EAAE,SAAS;CAQzB;;AAZD,AAME,WANS,CAAC,WAAW,AAMpB,WAAW,CAAC,KAAK,CAAC;EACjB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,WAAW;CACxB",
-    "sources": [
-        "search-bar.component.scss"
-    ],
-    "names": [],
-    "file": "search-bar.component.css"
-}
+{"version":3,"sources":["search-bar.component.scss","search-bar.component.css"],"names":[],"mappings":"AAAA;EACE,4BAAA;EACA,uBAAA;EACA,uBAAA;EACA,wBAAA;ACCF;ADCE;EACE,YAAA;EACA,SAAA;EACA,UAAA;EACA,uBAAA;ACCJ","file":"search-bar.component.css"}

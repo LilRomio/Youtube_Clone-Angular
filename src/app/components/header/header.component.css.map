@@ -1,10 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AACA,AAAA,IAAI;AACJ,OAAO,CAAC;EACN,OAAO,EAAE,WAAW;EACpB,eAAe,EAAE,aAAa;EAC9B,UAAU,EAAE,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,kBAAkB;EACvC,UAAU,EAAE,IAAI;EAChB,QAAQ,EAAE,MAAM;EAChB,GAAG,EAAE,CAAC;EACN,OAAO,EAAE,EAAE;CACZ",
-    "sources": [
-        "header.component.scss",
-        "../../_mixins.scss"
-    ],
-    "names": [],
-    "file": "header.component.css"
-}
+{"version":3,"sources":["header.component.scss","header.component.css"],"names":[],"mappings":"AACA;;EAEE,oBAAA;EACA,8BAAA;EACA,uCAAA;EACA,gBAAA;EACA,wBAAA;EAAA,gBAAA;EACA,MAAA;EACA,WAAA;ACAF","file":"header.component.css"}

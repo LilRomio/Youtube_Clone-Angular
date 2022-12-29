@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,SAAS,CAAC,UAAU,CAAC;EACnB,KAAK,EAAE,QAAQ;EACf,YAAY,EAAE,SAAS;CACxB",
-    "sources": [
-        "hamburger-menu.component.scss"
-    ],
-    "names": [],
-    "file": "hamburger-menu.component.css"
-}
+{"version":3,"sources":["hamburger-menu.component.scss","hamburger-menu.component.css"],"names":[],"mappings":"AAAA;EACE,eAAA;EACA,uBAAA;ACCF","file":"hamburger-menu.component.css"}

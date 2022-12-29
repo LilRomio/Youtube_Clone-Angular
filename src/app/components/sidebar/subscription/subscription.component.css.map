@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,eAAe,CAAC,CAAC,CAAC,GAAG,CAAC;EACpB,KAAK,EAAE,OAAO;EACd,YAAY,EAAE,OAAO;CACtB;;AAED,AAAA,eAAe,CAAC,CAAC,CAAC;EAChB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,aAAa,EAAE,OAAO;EACtB,KAAK,EAAE,WAAW;EAClB,SAAS,EAAE,IAAI;CAChB",
-    "sources": [
-        "subscription.component.scss"
-    ],
-    "names": [],
-    "file": "subscription.component.css"
-}
+{"version":3,"sources":["subscription.component.scss","subscription.component.css"],"names":[],"mappings":"AAAA;EACE,cAAA;EACA,qBAAA;ACCF;;ADEA;EACE,aAAA;EACA,mBAAA;EACA,sBAAA;EACA,0BAAA;EAAA,uBAAA;EAAA,kBAAA;EACA,eAAA;ACCF","file":"subscription.component.css"}
