@@ -1,9 +1,18 @@
 <nav class="header flex flex-ai-c">
-  <div class="nav-left flex flex-ai-c"><app-hamburger-menu></app-hamburger-menu> <app-logo></app-logo></div>
-  <div class="nav-center flex flex-ai-c"><app-search-bar></app-search-bar> <app-voice-search></app-voice-search></div>
+  <div class="nav-left flex flex-ai-c">
+    <app-hamburger-menu></app-app-hamburger-menu>
+    <div class="nav-left flex">
+      <img src="../../../../assets/images/logo.png" class="logo" />
+    </div>
+  </div>
+  <div class="nav-center flex flex-ai-c"><app-search-bar></app-search-bar></div>
   <div class="nav-right flex flex-ai-c hide-for-mobile">
-    <app-upload-video></app-upload-video>
-    <app-notification></app-notification>
+    <div class="nav-right flex flex-ai-c">
+      <img src="../../../../assets/images/upload.png" />
+    </div>
+    <div class="nav-right flex">
+      <img src="../../../../assets/images/notification.png" />
+    </div>
     <app-user></app-user>
   </div>
 </nav>

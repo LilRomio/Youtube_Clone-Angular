@@ -1,15 +1,10 @@
-<div class="sidebar flex flex-ai-c hide-for-mobile">
+<div (click)="toggleMenu()" class="sidebar flex flex-ai-c hide-for-mobile">
   <div class="scrollbar">
     <div class="shortcut-links">
-      <app-home></app-home>
-      <app-explore></app-explore>
-      <app-subscription></app-subscription>
-      <app-library></app-library>
-      <app-history></app-history>
-      <app-playlist></app-playlist>
-      <app-messages></app-messages>
-      <app-showmore></app-showmore>
+      <app-sidebar-link [imageSrc]="'componenta1'"></app-sidebar-link>
       <hr />
+      <app-sidebar-link [imageSrc]="'componenta2'"></app-sidebar-link>
+
       <app-subscribed></app-subscribed>
       <app-showmore-subscriptions></app-showmore-subscriptions>
       <hr />
