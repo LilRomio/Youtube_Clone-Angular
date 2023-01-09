@@ -1,1 +1,23 @@
-<p>sidebar-link works! {{ imageSrc }}</p>
+<div class="list-sidebar">
+  <div *ngFor="let item of data_top" class="shortcut-links flex flex-ai-c">
+    <a href=""
+      ><img src="{{ item.shortcuts1 }}" />
+      <p>{{ item.name1 }}</p></a
+    >
+  </div>
+  <hr />
+  <div *ngFor="let item of data_mid" class="shortcut-links flex flex-ai-c">
+    <a href=""
+      ><img src="{{ item.shortcuts2 }}" />
+      <p>{{ item.name2 }}</p></a
+    >
+  </div>
+  <hr />
+  <h5>Subscriptions</h5>
+  <div *ngFor="let item of data_bottom" class="shortcut-links flex flex-ai-c">
+    <a href=""
+      ><img src="{{ item.shortcuts3 }}" />
+      <p>{{ item.name3 }}</p></a
+    >
+  </div>
+</div>
