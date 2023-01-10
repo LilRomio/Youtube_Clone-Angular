@@ -1,4 +1,6 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -24,7 +26,7 @@ import { SidebarLinkComponent } from './components/sidebar/sidebar-link/sidebar-
     UserComponent,
     SidebarLinkComponent,
   ],
-  imports: [BrowserModule],
+  imports: [BrowserModule, Ng2SearchPipeModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
