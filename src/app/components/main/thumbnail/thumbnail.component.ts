@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./thumbnail.component.scss'],
 })
 export class ThumbnailComponent implements OnInit {
+  filterVideos: string = '';
   data = [
     {
       video: '../../../../assets/images/thumbnail1.png',
@@ -64,6 +65,7 @@ export class ThumbnailComponent implements OnInit {
       views: '45k views 5 days',
     },
   ];
+
   constructor() {}
 
   ngOnInit(): void {}

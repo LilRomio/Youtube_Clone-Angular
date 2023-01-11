@@ -1,5 +1,6 @@
+<div class="search-box"><input type="text" placeholder="Search" [(ngModel)]="filterVideos" /></div>
 <div class="list-container">
-  <div *ngFor="let item of data" class="vid-list">
+  <div *ngFor="let item of data | filter : filterVideos" class="vid-list">
     <a href=""><img src="{{ item.video }}" class="thumbnail" /></a>
     <div class="flex-div">
       <img src="{{ item.icon }}" />
