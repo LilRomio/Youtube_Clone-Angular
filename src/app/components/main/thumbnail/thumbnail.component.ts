@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { SearchBarComponent } from '../../header/search-bar/search-bar.component';
 @Component({
   selector: 'app-thumbnail',
   templateUrl: './thumbnail.component.html',

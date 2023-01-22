@@ -6,9 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'youtube-angular';
-  subMenuState: boolean = false;
-  burgerClicked(event: boolean) {
-    this.subMenuState = event;
-  }
+  opened = false;
 }

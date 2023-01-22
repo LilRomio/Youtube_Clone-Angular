@@ -10,7 +10,12 @@
     outline: 0;
     background: transparent;
   }
+  &.search-box .search-button {
+    border: none;
+    cursor: pointer;
+  }
 }
 .mic-icon {
   width: 0.9375rem;
+  cursor: pointer;
 }
